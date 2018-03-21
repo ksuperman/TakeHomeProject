@@ -1,0 +1,59 @@
+.ClassifiedArticle__MainArticle {
+  width: 60%;
+}
+
+.ClassifiedArticle__ArticleHeading {
+  font-size: 12px;
+  text-transform: uppercase;
+  margin: 10px 0 0 0;
+}
+
+.ClassifiedArticle__ArticleBody {
+  display: flex;
+}
+
+.ClassifiedArticle__ArticleBodyText {
+  width: 60%;
+  overflow-wrap: break-word;
+  margin: 0;
+  font-size: 12px;
+}
+
+.ClassifiedArticle__ArticleImage {
+  max-width: 100px;
+  max-height: 100px;
+  padding: 10px;
+}
+
+.ClassifiedArticle__SectionHeading {
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+
+.ClassifiedArticle__ArticleExternalLink{
+  position: relative;
+  padding-left: 30px;
+  &:before {
+    content: "\A";
+    position: absolute;
+    width: 3px;
+    background: black;
+    height: 3px;
+    border-radius: 25px;
+    left: 0;
+    top: 6px;
+  }
+  &:after {
+    content: "";
+    width: 30px;
+    height: 30px;
+    background: url(http://3.bp.blogspot.com/-p29CGVu_22Q/VcEIostZOQI/AAAAAAAAgZc/lpFp91hkPzw/s1600/CameraNext.png) no-repeat;
+    top: -2px;
+    left: 6px;
+    position: absolute;
+    display: inline-block;
+    background-size: 20px 20px;
+  }
+}

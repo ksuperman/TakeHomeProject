@@ -1,0 +1,27 @@
+.TabItem__ItemContainer {
+  list-style-type: none;
+  display: block;
+}
+
+.TabItem__Item {
+  border: 1px solid dimgrey;
+  padding: 5px 10px;
+  color: dimgrey;
+  cursor: pointer;
+  background: #eef4f5;
+}
+
+.TabItem__Item--Selected {
+  position: relative;
+  background: white;
+  &:after{
+    content: "\A";
+    width: 100%;
+    left: 0;
+    position: absolute;
+    height: 6px;
+    background: white;
+    bottom: -3px;
+    z-index: 1;
+  }
+}

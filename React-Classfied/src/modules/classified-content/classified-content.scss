@@ -1,0 +1,30 @@
+.ClassifiedContent__Container {
+  border: 1px solid dimgrey;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.ClassifiedContent__BottomContainer,
+.ClassifiedContent__TopContainer {
+  display: flex;
+}
+
+.ClassifiedContent__BottomContainer {
+  border-top: 1px solid lightgrey;
+  margin-top: 10px;
+  padding-top: 10px;
+}
+
+.ClassifiedContent__Ads {
+  width: 40%;
+}
+
+.ClassifiedContent__PlaceAdsLink {
+  text-align: center;
+  margin-top: 10px;
+  border-top: 1px solid lightgrey;
+  padding-top: 10px;
+  font-size: 12px;
+}
+

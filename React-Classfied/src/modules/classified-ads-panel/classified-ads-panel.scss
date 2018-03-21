@@ -1,0 +1,21 @@
+.ClassifiedAdsPanel__AdsContainer {
+  display: flex;
+}
+.ClassifiedAdsPanel__BottomMainAdImage{
+  width: 60%;
+  height: 108px;
+}
+
+.ClassifiedAdsPanel__AdLinks {
+  list-style: none;
+  padding-left: 10px;
+  font-size: 11px;
+  line-height: 16px;
+}
+
+.ClassifiedAdsPanel__SideAdImage {
+  width: 80px;
+  height: 59px;
+  padding-left: 8px;
+  box-sizing: border-box;
+}

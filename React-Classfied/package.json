@@ -1,0 +1,55 @@
+{
+  "name": "React-Project",
+  "version": "1.0.0",
+  "description": "Recreate the New York Times’ classifieds component using React. Make sure clicking on the tabs works and opens new content (you can use filler text). Include screenshots with your code.",
+  "main": "index.js",
+  "scripts": {
+    "dev:client": "webpack-dev-server --config=configs/webpack.config.dev --history-api-fallback"
+  },
+  "babel": {
+    "presets": [
+      [
+        "env",
+        {
+          "modules": false
+        }
+      ],
+      "react"
+    ],
+    "plugins": [
+      "transform-object-rest-spread",
+      "transform-class-properties"
+    ]
+  },
+  "engines": {
+    "node": ">=7.0.0"
+  },
+  "author": "Rakshith Koravadi Hatwar",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.4",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "css-loader": "^0.28.9",
+    "html-webpack-plugin": "^2.30.1",
+    "node-sass": "^4.7.2",
+    "sass-loader": "^6.0.7",
+    "serve": "^3.1.0",
+    "style-loader": "^0.20.3",
+    "webpack": "^3.10.0",
+    "webpack-dev-middleware": "^2.0.4",
+    "webpack-dev-server": "^2.11.1",
+    "webpack-merge": "^4.1.1"
+  },
+  "dependencies": {
+    "prop-types": "latest",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "shortid": "^2.2.8"
+  }
+}
